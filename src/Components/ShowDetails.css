@@ -1,0 +1,15 @@
+body
+{
+    padding: 0px;
+    margin: 0;
+}
+.summary h1
+{
+   text-align: center;
+   
+}
+.summary p{
+    color: white;
+    width: 80%;
+    margin: auto;
+}

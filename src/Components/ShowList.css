@@ -1,0 +1,95 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    align-items: center;
+    margin: auto;
+   background-color: darkslategray;
+
+}
+.container .head
+{
+    align-self: center;
+    margin: auto;
+    width: 100%;
+    height: 3rem;
+    color: white;
+    background-color: rgb(39, 3, 39);
+    position:fixed;
+}
+.container .head h1
+{
+   text-align: center;
+}
+.grid
+{
+  padding: 3rem 2rem;
+  align-content: flex-start;
+  
+    
+}
+.elements
+{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+   
+}
+.content
+{
+    width:250px;
+    height: 200px;
+    margin: 20px;
+    border: 2px solid red;
+    border-radius: 10px;
+    background-color: aqua;
+}
+.main h2
+{
+    text-align: center;
+
+}
+.main p
+{
+    margin: 2px 5px 0;
+
+}
+.mainsub
+{
+    display: flex;
+    padding: 5px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.submit
+{
+   text-align: center;
+}
+button
+{
+    width: 75%; 
+   background: none;
+   border:none;
+   margin: 10px;
+   
+}
+h3
+{
+    text-decoration: none;
+    color:white;
+    background: rgb(39, 3, 39);
+    border-radius: 50px;
+    padding: 5px;
+
+}
+
+
+
+
